@@ -135,6 +135,9 @@ header {
 
 
 @media (max-width:600px) {
+    body{
+        overflow: hidden;
+    }
     .navbar .links {
         display: none;
     }
