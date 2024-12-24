@@ -6,7 +6,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .container{
     height: 100vh;
@@ -14,6 +14,7 @@ body {
     background-image: url('child2.jpg'); 
     background-size:cover;
     background-position: center;  
+    overflow: hidden;
 }
 li {
     list-style: none;
@@ -83,7 +84,7 @@ header {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .hero h1 {
     font-size: 3rem;
